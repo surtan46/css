@@ -1,0 +1,48 @@
+/* element name sslector */
+
+h1{
+    text-decoration: line-through;
+}
+
+ul{
+    border:1px;
+}
+
+/* class selector */
+.items-list{
+    list-style-type: circle;
+}
+
+/* id selector */
+#special-item {
+    color:blue;
+}
+
+/* attribute selector */
+ [data-num="forty"]  {
+    color:red;
+    font-size:20px
+ }
+
+ /* combining selectors */
+ /* descendant selector */
+#middle-list li{
+    color:darkgreen;
+ }
+ /*child-selector       >  -- first descendant */
+
+ /* */
+
+ body > a{
+    background-color:aqua;
+ }
+
+ /* adjacent sibling */
+ #unique + li{
+    border: 2px solid;
+}
+
+/* general/next sibling */
+#unique ~li{
+    font-style:italic;
+}

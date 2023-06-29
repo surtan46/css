@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS flex</title>
+    <style>
+        section{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            border: 2px solid;
+            height:400px;
+            align-items: center;
+        }
+        /* #item-3{
+            align-self: flex-end;
+        } */
+
+        section div:nth-child(even){
+            align-self:flex-end;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS Flexbox</h1>
+    <section class="flex-container">
+        <div>
+            <h2>update 1</h2>
+            <p>update one text preview</p>
+        </div>
+        <div>
+            <h2>update 2</h2>
+            <p>update two text preview</p>
+        </div>
+        <div id="item 3">
+            <h2>update 3</h2>
+            <p>update 3 text preview</p>
+        </div>
+        <div>
+            <h2>update 4</h2>
+            <p>update four text preview</p>
+        </div>
+        <div>
+            <h2>update 5</h2>
+            <p>update 5 text preview</p>
+        </div>
+        <div>
+                <h2>update 6</h2>
+                <p>update 6 text preview</p>
+        </div>
+    </section>
+    
+</body>
+</html>

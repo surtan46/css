@@ -1,0 +1,62 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*default content-box*/
+
+ }
+ .container{
+    background-color: black;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+ }
+ .card{
+    width:300px;
+    height:180px;
+     /*background:linear-gradient(45deg,blue,red); */
+     background-image: url(./map.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position:center;
+     background-color: blue;
+    position:relative; 
+
+
+}
+    /*hex code--to have more control of colors--pure names cannot give you all the available colors*/
+    /*to left,to bottom*/
+
+    h1{
+        position:absolute;
+        left:15px;
+        bottom:45px;
+        font-size:19px;
+    }
+
+h2{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    font-size:19px;
+
+
+
+}
+#sim{
+    position:absolute;
+    right:15px;
+    top:60px;
+}
+#visa{
+    position:absolute;
+    top:30px;
+    left:15px;
+    height:30px;
+
+}
+
+
+

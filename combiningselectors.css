@@ -1,0 +1,27 @@
+ h1{
+    text-decoration:unset;
+    font: size 98px;
+    color:deeppink;
+    background-color: mediumturquoise;
+    
+
+ }
+ ul{
+    border: 2px;
+    list-style-type:lower-latin
+ }
+ div{
+    block-size: 0cqmax;
+    color:darkgreen;
+    marker-end: inherit;
+    pointer-events: visibleStroke;
+ }
+
+ ul{
+    font-size: xx-large;
+    color:dimgrey;
+    mask-position: 0cqmin;
+    list-style: numbers;
+    
+ }
+ 
